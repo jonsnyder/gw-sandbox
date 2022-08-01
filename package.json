@@ -1,0 +1,19 @@
+{
+  "name": "gw-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "date-fns": "^2.29.1",
+    "express": "^4.18.1",
+    "express-http-proxy": "^1.6.3"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "sample1",
+      "script": "./sample1/app.js",
+      "env": {
+        "PORT": "3001"
+      }
+    },
+    {
+      "name": "sample2",
+      "script": "./sample2/app.js",
+      "env": {
+        "PORT": "3002"
+      }
+    }
+  ]
+}
