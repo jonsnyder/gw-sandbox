@@ -13,13 +13,6 @@
       "env": {
         "PORT": "3002"
       }
-    },
-    {
-      "name": "main/sample3",
-      "script": "./sample3/app.js",
-      "env": {
-        "PORT": "3003"
-      }
     }
   ],
   "deploy": {
