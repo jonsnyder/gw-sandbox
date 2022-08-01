@@ -14,5 +14,15 @@
         "PORT": "3002"
       }
     }
-  ]
+  ],
+  "deploy": {
+    "prod": {
+      "user": "josnyder",
+      "host": ["localhost"],
+      "ref": "origin/main",
+      "repo": "git@github.com:jonsnyder/gw-sandbox.git",
+      "path": "/Users/josnyder/dev/gw-sandbox-main",
+      "post-deploy": "./post-deploy.sh"
+    }
+  }
 }
